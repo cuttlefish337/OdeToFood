@@ -8,3 +8,8 @@
   - Emacs for taking notes
 * Todo items
   - [ ] Convert this org file to markdown with pandoc
+  - [ ] Create notes file
+* Notes
+  Added List razor page with the following command:
+  
+  dotnet-aspnet-codegenerator razorpage List Empty -udl -outDir Pages/Restaurants/

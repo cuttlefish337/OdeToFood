@@ -1,6 +1,9 @@
 * OdeToFood
   This git repo contains software as developed in the course
   [[https://www.pluralsight.com/courses/aspnet-core-fundamentals][ASP.NET Core Fundamentals by Scott Allen on pluralsight.com]].
+
+  OdeToFood.Core and OdeToFood.Data projects are in separate
+  repositories. See notes section at the end of this document.
 * My development setup
   - Debian GNU/Linux Buster (10) on an Intel laptop
   - .NET Core 3.1
@@ -10,6 +13,10 @@
   - [ ] Convert this org file to markdown with pandoc
   - [ ] Create notes file
 * Notes
-  Added List razor page with the following command:
-  
-  dotnet-aspnet-codegenerator razorpage List Empty -udl -outDir Pages/Restaurants/
+** Added List razor page with the following command:
+   dotnet-aspnet-codegenerator razorpage List Empty -udl -outDir Pages/Restaurants/
+** OdeToFood.Core and OdeToFood.Data
+   You als need to clone these repositories in order to start this
+   web application.
+
+   [[https://github.com/cuttlefish337/OdeToFood.Core][OdeToFood.Core]]

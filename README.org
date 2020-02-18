@@ -15,6 +15,10 @@
 * Notes
 ** Added List razor page with the following command:
    dotnet-aspnet-codegenerator razorpage List Empty -udl -outDir Pages/Restaurants/
+** Added libman tool with the following command:
+   dotnet tool install -g Microsoft.Web.LibraryManager.Cli
+
+   libman is used to install font-awesome library from cdnjs
 ** OdeToFood.Core and OdeToFood.Data
    You als need to clone these repositories in order to start this
    web application.

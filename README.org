@@ -23,6 +23,10 @@
    After installing tools globally with dotnet tool install you can
    find them in ~/.dotnet/tools/. I placed symbolic links in my ~/bin/
    directory.
+** Install font-awesome library with the following command
+   libman install font-awesome
+
+   Give this command in the project root
 ** OdeToFood.Core and OdeToFood.Data
    You als need to clone these repositories in order to start this
    web application.

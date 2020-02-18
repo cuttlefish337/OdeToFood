@@ -6,12 +6,28 @@
 
 <h1>Restaurants</h1>
 
-<input type="search" class="form-control" value="" />
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" value=""
+                   name="searchTerm" />
+            <span>
+                <button class="btn btn-default">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<!--
+<input type="search" class="form-control" value="" name="searchTerm" />
 <div class="input-group-append">
     <button class="btn btn-secondary">
         <i class="fas fa-search"></i>
     </button>
 </div>
+-->
 
 <table class="table">
     @foreach(var restaurant in Model.Restaurants)

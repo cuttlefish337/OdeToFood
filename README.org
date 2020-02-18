@@ -27,6 +27,26 @@
    libman install font-awesome
 
    Give this command in the project root
+** Chapter 3 Working with Models and Model Binding
+*** Clip Binding to a Query String
+    Use the following code from [[https://github.com/OdeToCode/OdeToFood/blob/master/OdeToFood/OdeToFood/Pages/Restaurants/List.cshtml][Scott's githubpage]]
+
+    Modify it like this:
+    #+BEGIN_SRC
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" value=""
+                   name="searchTerm" />
+            <span>
+                <button class="btn btn-default">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+    #+END_SRC
 ** OdeToFood.Core and OdeToFood.Data
    You als need to clone these repositories in order to start this
    web application.

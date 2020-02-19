@@ -5,7 +5,7 @@
   OdeToFood.Core and OdeToFood.Data projects are in separate
   repositories. See notes section at the end of this document.
 * My development setup
-  - [[https://www.debian.org/][Debian GNU/Linux Buster (10) on an Intel laptop]]
+  - [[https://www.debian.org/][Debian GNU/Linux Buster (10)]]
   - [[https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-debian10][.NET Core 3.1]]
   - [[https://code.visualstudio.com/][VS Code for writing C#]]
   - [[https://www.mozilla.org/en-US/firefox/new/][Firefox]]

@@ -16,6 +16,9 @@ namespace OdeToFood.Pages.Restaurants
         private readonly IRestaurantData restaurantData;
         public IEnumerable<Restaurant> Restaurants {get; set;}
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
+
         public string Message { get; set; }
 
         public ListModel(IConfiguration config, IRestaurantData restaurantData)
@@ -25,11 +28,11 @@ namespace OdeToFood.Pages.Restaurants
         }
 
         
-        public void OnGet(string searchTerm)
+        public void OnGet()
         // Goal of model binding is to move information from a request into an input model
         {
             Message = config["Message"];
-            Restaurants = restaurantData.GetRestaurantsByName(searchTerm);
+            Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
 
         }
     }

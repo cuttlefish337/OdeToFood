@@ -13,7 +13,7 @@ namespace OdeToFood.Pages.Restaurants
         public Restaurant Restaurant {get; set;}
         public void OnGet()
         {
-
+            Restaurant = new Restaurant();
         }
     }
 }

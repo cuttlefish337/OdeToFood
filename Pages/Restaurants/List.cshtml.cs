@@ -26,6 +26,7 @@ namespace OdeToFood.Pages.Restaurants
 
         
         public void OnGet(string searchTerm)
+        // Goal of model binding is to move information from a request into an input model
         {
             Message = config["Message"];
             Restaurants = restaurantData.GetRestaurantsByName(searchTerm);

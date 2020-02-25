@@ -15,6 +15,7 @@
   - [ ] Create notes file
   - [ ] Merge OdeToFood.Core, OdeToFood.Data and OdeToFood into one
     repository
+  - [ ] Fetching Restaurants by ID
 * Notes
 ** Added List razor page with the following command:
    dotnet-aspnet-codegenerator razorpage List Empty -udl -outDir Pages/Restaurants/

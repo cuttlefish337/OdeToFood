@@ -51,6 +51,8 @@
     </div>
 </form>
     #+END_SRC
+** Added empty razor page NotFound with the following command:
+   dotnet-aspnet-codegenerator razorpage NotFound Empty -udl -npm -outDir Pages/Restaurants/
 ** OdeToFood.Core and OdeToFood.Data
    You als need to clone these repositories in order to start this
    web application.

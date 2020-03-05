@@ -1,3 +1,4 @@
+* Work on the project has been suspended
 * OdeToFood
   This git repo contains software as developed in the course
   [[https://www.pluralsight.com/courses/aspnet-core-fundamentals][ASP.NET Core Fundamentals by Scott Allen on pluralsight.com]].
